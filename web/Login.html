@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+#heading
+	{
+	 background:#0080FF;
+	 color:white;
+	 padding:50px;
+	 font-size:60px;
+	 text-shadow: 8px 8px 20px black;
+	
+	 }
+	 #logo
+	 {
+	  
+	  }
+	  ul{
+	  	 margin:0px;
+		 padding:0px;
+		 list-style:none;
+	   }
+	 ul li{
+	 	float:left;
+		width:260px;
+		height:40px;
+		background-color:#0080FF;
+		opacity:10;
+		line-height:40px;
+		text-align:center;
+		font-size:20px;
+		margin-right:2px;
+	  }
+	  ul li a{
+	  	 text-decoration:none;
+		 color:white;
+		 display:block;
+		 overflow:hidden;
+	   }
+	  ul li a:hover{
+	  	 background:white;
+		 color:#0080FF;
+		 
+		 
+		 
+	   }
+	   ul li ul li{
+	   display:none;
+	    }
+		ul li:hover ul li{
+		display:block;
+        
+		
+		 }
+		
+		 #navigation
+		 {
+		  position:relative;
+		  right:20px;
+		  bottom:100px;
+		  }
+	 .pic{
+	 	  width:600px;
+		  height:400px;
+		  
+		  margin:10px;
+	  }
+	  #picture{
+	  		   float:left;
+	   }
+	   .bar
+	   {
+	   padding-left:20%;
+	   
+	    }
+		#subhead
+		{
+		 background:#6ACFFF;
+		 width:100%;
+		 padding:10px;
+		 font-size:30px;
+		 text-align:center;
+		 
+		 }
+		.service
+		{
+padding-left:10%;
+		 }
+	
+	#heading2{
+			
+			 background:#0080C0;
+			 color:white;
+			 padding:20px;
+			 margin-top:100px;
+		}
+</style>
+</head>
+<body>
+<header id="header">
+  <h1 align="left" id="heading"> Indira Gandhi Engineering College
+  <img id="logo" align="right" src="E:\pim/lgoin image.png" /></h1>
+  <h3 id="subhead" ><b>College Alumni Management </h3>
+  <div id="navigaton" role="navigation">
+  <ul>
+  <li><a href="home page.html">HOME</a></li>
+  <li><a href="about.html">PROFILE</a></li>
+  <li><a href="departments.html">CONTACT</a></li>
+  <li><a href="evnets.html">ABOUT US</a></li>
+  <li><a href="register.html">LOGIN</a></li>
+  
+  </li>
+  </ul>
+  </div>
+  </header>
+ 
+  
+ <h1  align="center" id="heading2">LOGIN </h1>
+ 
+
+
+
+<form action="login">
+  <div class="imgcontainer">
+    <img src="images/lgoin image.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pword" required>
+        
+    <button type="submit">Login</button>
+    
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="reset" class="cancelbtn">CLEAR ALL</button>
+    <span class="psw">Are you a new user??? <a href="Register.html">Get Registered?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
